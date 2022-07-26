@@ -1,8 +1,3 @@
-# @api.get("/greeting")
-# def greet():
-#     name = os.environ.get("GREET_NAME", "")
-#     return {"msg": f"Hello {name}!"} 
-
 from fastapi import FastAPI, UploadFile, File, HTTPException,Request
 import yaml
 import os
